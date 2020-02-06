@@ -2,14 +2,14 @@ import React from "react"
 import Layout from '../components/layout'
 import Container from "../components/container";
 
-const IndexPage = () => {
+const StorePage = () => {
     return (
-        <Layout title="Home" description="The homepage of this website">
+        <Layout>
             <Container>
-                <h1>Hello world!</h1>
+                <h1>Store</h1>
             </Container>
         </Layout>
     )
 }
 
-export default IndexPage
+export default StorePage
